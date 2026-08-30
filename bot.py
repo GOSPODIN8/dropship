@@ -224,7 +224,7 @@ async def cmd_stats(message: Message):
 async def main():
     db.init_db()
     logger.info("Бот запущен, ожидаю сообщения...")
-    await dp.start_polling(bot)
+    await bot.delete\_webhook drop\_pending\_updates=True\ await dp.start_polling(bot)
 
 
 if __name__ == "__main__":
