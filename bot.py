@@ -92,7 +92,7 @@ async def cmd_start(message: Message):
         logger.error("Файл бесплатного урока не найден: %s", config.FREE_PDF_PATH)
         await message.answer("⚠️ Файл урока временно недоступен, но оффер уже готов ниже.")
 
-    await asyncio.sleep(15)
+    await asyncio.sleep(45)
     await message.answer(texts.OFFER_TEXT, parse_mode="HTML", reply_markup=kb_after_free_lesson())
 
 
