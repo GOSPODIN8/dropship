@@ -9,11 +9,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Токен бота, полученный от @BotFather
-BOT_TOKEN = os.getenv("BOT_TOKEN", "ВАШ_ТОКЕН_СЮДА")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8569629917:AAHVYpGlaH-MI4-nECmKlHfFnWda9_qpQjo")
 
 # ID администратора (ваш Telegram user_id) — для уведомлений о продажах.
 # Узнать свой ID можно у бота @userinfobot
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "6147195726"))
 
 # Цена полного гайда в Telegram Stars
 PRICE_STARS = int(os.getenv("PRICE_STARS", "3999"))
