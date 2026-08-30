@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Токен бота, полученный от @BotFather
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8569629917:AAHVYpGlaH-MI4-nECmKlHfFnWda9_qpQjo")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8915426833:AAEtkeRy6y5FvoTN7VssUiLOybie7oO8Z0E")
 
 # ID администратора (ваш Telegram user_id) — для уведомлений о продажах.
 # Узнать свой ID можно у бота @userinfobot
